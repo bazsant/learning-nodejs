@@ -1,24 +1,15 @@
-<html>
-    <head>
-        <meta charset="utf-8" >
-        <title>agenda de contatos</title>
-    </head>
-    <body>
-        <header>
-            <h1>ntalk</h1>
-            <h4>bem vindo</h4>
-        </header>
-        <section>
-            <form action="/entrar" method="post">
-                <input type="text" name="nome" placeholder="seu nome">
-                <br>
-                <input type="text" name="email" placeholder="seu email">
-                <br>
-                <button type="submit" >entrar</button>
-            </form>
-        </section>
-        <footer>
-            <small>ntalk - agenda de contatos</small>
-        </footer>
-    </body>
-</html>
+<% include ../header %>
+    <header>
+        <h1>ntalk</h1>
+        <h4>bem vindo</h4>
+    </header>
+    <section>
+        <form action="/entrar" method="post">
+            <input type="text" name="nome" placeholder="seu nome">
+            <br>
+            <input type="text" name="email" placeholder="seu email">
+            <br>
+            <button type="submit">entrar</button>
+        </form>
+    </section>
+    <% include ../footer %>
